@@ -1,0 +1,92 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video
+  margin: 0
+  padding: 0
+  border: 0
+  font-size: 100%
+  font: inherit
+  vertical-align: baseline
+  color: #fff
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section
+  display: block
+
+body
+  line-height: 1
+
+ol, ul
+  list-style: none
+
+blockquote, q
+  quotes: none
+
+blockquote:before, blockquote:after,
+q:before, q:after
+  content: ''
+  content: none
+
+table
+  border-collapse: collapse
+  border-spacing: 0
+
+html,
+body,
+#app
+  overflow: hidden
+  position: relative
+  width: 100%
+  height: 100%
+
+#app
+  width: 100%
+  height: 100%
+  background: url('../img/base-map.jpg') no-repeat
+  background-size: cover
+
+@import url('//at.alicdn.com/t/font_2240793_m07tx60dle.css')
+@import url('animate.min.sass')
+
+.el-tree
+  background: transparent;
+  .el-tree-node:focus>.el-tree-node__content
+    background-color: #4376af;
+  .el-tree-node__content:hover
+    background-color: #4376af
+  .iconfont
+    font-size: 18px;
+    color: #47ebff;
+  .custom-tree-node
+    display: flex;
+    align-items: center;
+    .label
+      margin-top: 2px;
+      font-size: 14px;
+    .icon-xinxinicon
+      margin-top: -5px;
+      margin-left: -6px;
+    .icon-xianshi,.icon-xianshi1
+      position: absolute
+      right: 4px
+      display: inline-block
+      height: 22px;
+      width: 21px;
+      margin-top: -8px;
+      padding-left: 1px;
+      padding-top: 2px;
+      font-size: 16px;
+      background: url('../img/design/queryAndStatistics/ellipse.png') no-repeat
+.el-scrollbar__wrap
+  overflow-x: hidden
